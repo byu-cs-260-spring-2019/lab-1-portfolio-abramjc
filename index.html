@@ -10,25 +10,44 @@
 <body>
 
     <!-- This is the page navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="about.html">About Me</a>
-                <a class="nav-item nav-link" href="experience.html">Professional Experience</a>
-                <a class="nav-item nav-link" href="projects.html">Personal Projects</a>
-                <a class="nav-item nav-link" href="https://github.com/abramjc">My Github</a>
-            </div>
-         </div>
-    </nav>
+    <div id="navigationBar" class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="about.html">About Me</a>
+                    <a class="nav-item nav-link" href="experience.html">Professional Experience</a>
+                    <a class="nav-item nav-link" href="projects.html">Personal Projects</a>
+                    <a class="nav-item nav-link" href="https://github.com/abramjc">My Github</a>
+                </div>
+             </div>
+        </nav>
+    </div>
 
     <!-- This is the sidebar and content portion of the page -->
     <div id="body" class="container">
-        <div id="sidebar" class="container"></div>
-        <div id="content" class="container"></div>
+
+       <div class="row">
+            <div id="sidebar" class="col-sm-auto">
+                <h4>Sections</h3>
+                <ul class="nobull">
+                    <li>Section1</li>
+                    <li>Section2</li>
+                    <li>Section3</li>
+                    <li>Section4</li>
+                    <li>Section5</li>
+                </ul>
+            </div>
+            <div id="content" class="col">
+                <h1>Page Title</h1>
+                <p>This is a paragraph, it has some text</p>
+                <p>This is a later paragraph</p>
+                <p>The end</p>
+            </div>
+        </div>
     </div>
 
     <!-- This  is the footer portion of the page -->
