@@ -1,14 +1,13 @@
-/*
-div {
-    border: 1px solid;
-}
-*/
 html {
     /*background-color: #DFFDFF;*/
     background-color: #4EACDE;
 }
 body {
     background-color: #4EACDE;
+}
+
+img {
+    margin-bottom: .5em; 
 }
     
 .header {
@@ -29,8 +28,18 @@ body {
     border-bottom-left-radius: .5em;
     border-bottom-right-radius: .5em; 
     margin-bottom: 2em; 
+    padding-top: 2em;
+    padding-bottom: 2em; 
     background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 0 4px 6px 0 rgba(0,0,0,0.16),0 4px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+#basics::before, #hobbies::before {
+    content: "";
+    display: block;
+    height: 4em; 
+    margin: -4em 0 0 0; 
 }
 
 
