@@ -5,6 +5,7 @@
     <title>Abram Clements</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -32,20 +33,16 @@
     <div id="body" class="container">
 
        <div class="row">
-            <div id="sidebar" class="col-sm-auto">
-                <h6>Sections</h6>
-                <ul>
-                    <li><a class="tab" href="">1<br></a></li>
-                    <li><a class="tab" href="">2<br></a></li>
-                    <li><a class="tab" href="">3<br></a></li>
-                    <li><a class="tab" href="">4<br></a></li>
-                    <li><a class="tab" href="">5<br></a></li>
-                </ul>
-            </div>
-
             <div id="content" class="col">
-                <h3>Personal Projects</h3>
-                <p>AKA fun stuff, more hobbies, stuff I think is cool, etc.</p>
+                <h5><strong>Professional Contact Info</strong></h5>
+                <p>385-337-5002 ext. 306<br>
+                aclements@superlumin.com</p>
+                <h5><strong>Personal Contact Info</strong></h5>
+                <p>If you just want to contact me personally that's cool too. You can message me
+                on <a href="https://www.facebook.com/abram.j.clements">Facebook</a>. If you really
+                want to, you could send me an email.</p>
+
+                <button id="button" onclick="mailToMe()">Email Me</button>
             </div>
         </div>
     </div>
