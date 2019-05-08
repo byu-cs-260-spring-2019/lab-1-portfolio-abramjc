@@ -8,7 +8,7 @@
     <script src="script.js"></script>
 
 </head>
-<body>
+<body onload="setBackground()">
 
     <!-- This is the page navigation bar -->
     <!--<div id="navigationBar" class="container">-->
@@ -41,14 +41,20 @@
                 <p>If you just want to contact me personally that's cool too. You can message me
                 on <a href="https://www.facebook.com/abram.j.clements">Facebook</a>. If you really
                 want to, you could send me an email.</p>
-
-                <button id="button" onclick="mailToMe()">Email Me</button>
             </div>
         </div>
     </div>
 
     <!-- This  is the footer portion of the page -->
-    <div id="footer" class="container"></div>
+    <div id="footer" class="container">
+        <div class="row">
+            <div class="col">
+                <p>Don't like the background color of this page? You can change it!</p>
+                <button id="color-changer" onclick="changeBackground()">Change Background Color</button>
+                <button id="color-reset" onclick="resetBackground()">Reset Background Color</button>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
