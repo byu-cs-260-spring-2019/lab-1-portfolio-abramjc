@@ -8,8 +8,13 @@ body {
 
 img {
     margin-bottom: .5em; 
+    max-width: 100%
 }
     
+ul {
+    margin: 1em;
+}
+
 .header {
     background-color: #e0e0e0; 
 }
@@ -21,6 +26,8 @@ img {
 #sidebar {
     padding: 1%; 
     margin-right: 2em; 
+    margin-left: 1em; 
+
 }
 
 
@@ -34,19 +41,6 @@ img {
     box-shadow: 0 4px 6px 0 rgba(0,0,0,0.16),0 4px 10px 0 rgba(0,0,0,0.12);
 }
 
-
-#basics::before, #hobbies::before {
-    content: "";
-    display: block;
-    height: 4em; 
-    margin: -4em 0 0 0; 
-}
-
-
-.nobull {
-    margin: 2em;
-    list-style-type: none;
-}
 
 #me {
    margin: 2em; 
