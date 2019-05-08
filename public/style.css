@@ -15,6 +15,10 @@ ul {
     margin: 1em;
 }
 
+.container {
+    max-width: 85%;
+}
+
 .header {
     background-color: #e0e0e0; 
 }
